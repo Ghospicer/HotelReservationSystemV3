@@ -16,30 +16,6 @@ public class Reservation {
     public Room room;
     public static int totalNumofReservations;
 
-
-    /*public static class Room {
-        public String roomType;
-        private int dailyCost;
-        public int roomSize;
-        public boolean hasBath;
-
-        public int getDailyCost() {
-            return dailyCost;
-        }
-        public void setDailyCost(int dailyCost) {
-            this.dailyCost = dailyCost;
-        }
-
-        public Room(int roomSize, boolean hasBath, int dailyCost, String roomType) {
-            this.roomType = roomType;
-            this.dailyCost = dailyCost;
-            this.hasBath = hasBath;
-            this.roomSize = roomSize;
-        }
-
-    }*/
-
-
     public int getDailyCost() {
         return dailyCost;
     }
