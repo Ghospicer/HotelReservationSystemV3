@@ -17,13 +17,6 @@ public class Room {
 		public void setRoomType(String roomType) {
 			this.roomType = roomType;
 		}
-
-        /*public Room(int roomSize, boolean hasBath, int dailyCost, String roomType) {
-            this.roomType = roomType;
-            this.dailyCost = dailyCost;
-            this.hasBath = hasBath;
-            this.roomSize = roomSize;
-        }*/
                 
 		public Room(String roomType) {
         	this.roomType = roomType;
