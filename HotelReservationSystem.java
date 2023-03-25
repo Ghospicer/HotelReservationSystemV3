@@ -6,7 +6,6 @@ public class HotelReservationSystem {
     public static void main(String[] args) {
         Reservation[] reserv = new Reservation[50];
         Room[] room = new Room[50];
-        //Single[] sng = new Single[50];
         int id = 1;
         int choice;
         Scanner sc = new Scanner(System.in);
@@ -29,16 +28,8 @@ public class HotelReservationSystem {
                 System.out.println("Reservation Start: ");
                 int reservationStart = sc.nextInt();
                 System.out.println("Reservation End: ");
-                int reservationEnd = sc.nextInt();
-                /*System.out.println("Daily Cost: ");
-                int dailyCost = sc.nextInt();
-                System.out.println("Has Bath: ");
-                boolean hasBath = sc.nextBoolean();
-                System.out.println("Room Size: ");
-                int roomSize = sc.nextInt(); */
-                //Burada sadece Single oluştursak.               
+                int reservationEnd = sc.nextInt();              
                 room[id-1] = new Room("Single");
-                //reserv[id-1] = new Reservation(reservationEnd, reservationStart, reservationMonth, hotelName);
                 reserv[id-1] = new Reservation(reservationEnd, reservationStart, reservationMonth, hotelName,room[id-1]);
                 System.out.printf("Reservation created!\n");
                 System.out.printf("\n");
